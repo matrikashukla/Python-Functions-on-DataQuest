@@ -15,3 +15,12 @@
    Return the frequency table as a dictionary.
    Use the freq_table() function on the genres list (already defined from the previous screen) to generate the frequency table for the prime_genre column. Store the frequency        table to a variable named genres_ft.
    Feel free to experiment with the extract() and freq_table() functions to easily create frequency tables for any column you want.
+   
+   
+ 3.Write a function named freq_table() that generates a frequency table for any column in our iOS apps data set.
+   The function should take the index number of a column in as an input (name the parameter as you want).
+   Inside the function's body:
+   Loop through the apps_data data set (don't include the header row) and extract the value you want by using the parameter (which is expected to be an index number).
+   Build the frequency table as a dictionary.
+   The function should return the frequency table as a dictionary.
+   Use the freq_table() function to generate a frequency table for the user_rating column (the index number of this column is 7). Store the table in a variable named ratings_ft.  
