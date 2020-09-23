@@ -21,9 +21,10 @@ def find_length(a_list):
     for element in a_list:
         length += 1
     return length
+    
 def mean(data_set,index):
     a_list =  extract(data_set,index)
     m = find_sum(a_list)/find_length(a_list)
     return m
 
-avg_price = mean(apps_data
+avg_price = mean(apps_data,4)
