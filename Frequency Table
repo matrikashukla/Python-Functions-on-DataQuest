@@ -1,0 +1,30 @@
+QUESTION :
+
+Write a function named freq_table() that generates a frequency table for any column in our iOS apps data set.
+The function should take the index number of a column in as an input (name the parameter as you want).
+Inside the function's body:
+Loop through the apps_data data set (don't include the header row) and extract the value you want by using the parameter (which is expected to be an index number).
+Build the frequency table as a dictionary.
+The function should return the frequency table as a dictionary.
+Use the freq_table() function to generate a frequency table for the user_rating column (the index number of this column is 7). Store the table in a variable named ratings_ft.
+
+ANSWER :
+
+opened_file = open('AppleStore.csv')
+from csv import reader
+read_file = reader(opened_file)
+apps_data = list(read_file)
+def freq_table(index):
+    column = []
+    for c in apps_data[1:]:
+        t = c[index]
+        column.append(t)
+    f = {}
+    for p in column:
+        if p in f:
+            f[p]+=1
+        else:
+            f[p]=1
+    return f
+ratings_ft = freq_table(7)
+print(ratings_ft)
