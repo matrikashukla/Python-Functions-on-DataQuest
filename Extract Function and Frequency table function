@@ -1,13 +1,3 @@
-Write a function named freq_table() that generates a frequency table for any list.
-
-The function should take in a list as input.
-Inside the function's body, write code that generates a frequency table for that list and stores the table in a dictionary.
-Return the frequency table as a dictionary.
-Use the freq_table() function on the genres list (already defined from the previous screen) to generate the frequency table for the prime_genre column. Store the frequency table to a variable named genres_ft.
-
-
-ANSWER :
-
 opened_file = open('AppleStore.csv')
 from csv import reader
 read_file = reader(opened_file)
