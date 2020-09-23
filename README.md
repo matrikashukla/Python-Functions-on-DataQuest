@@ -8,6 +8,7 @@
    Append that value to the empty list.
    Return the list containing the values of the column.
    Use the extract() function to extract the values in the prime_genre column. Store them in a variable named genres. The index number of this column is 11.
+ 
  2.Write a function named freq_table() that generates a frequency table for any list.
    The function should take in a list as input.
    Inside the function's body, write code that generates a frequency table for that list and stores the table in a dictionary.
