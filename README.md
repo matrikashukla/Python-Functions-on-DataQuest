@@ -1,5 +1,7 @@
 # Python-Functions-on-DataQuest
 
+# EXTRACT FUNCTION AND FREQUENCY FUNCTION
+
 1 .Write a function named extract() that can extract any column you want from the apps_data data set.
    The function should take in the index number of a column as input (name the parameter as you want).
    Inside the function's definition:
@@ -16,7 +18,8 @@
    Use the freq_table() function on the genres list (already defined from the previous screen) to generate the frequency table for the prime_genre column. Store the frequency        table to a variable named genres_ft.
    Feel free to experiment with the extract() and freq_table() functions to easily create frequency tables for any column you want.
    
-   
+# FREQUENCY TABLE   
+
  3.Write a function named freq_table() that generates a frequency table for any column in our iOS apps data set.
    The function should take the index number of a column in as an input (name the parameter as you want).
    Inside the function's body:
