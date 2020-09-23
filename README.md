@@ -27,3 +27,11 @@
    Build the frequency table as a dictionary.
    The function should return the frequency table as a dictionary.
    Use the freq_table() function to generate a frequency table for the user_rating column (the index number of this column is 7). Store the table in a variable named ratings_ft.  
+
+# MEAN FUNCTION
+ 
+ 4.Write a function named mean() that computes the mean for any column we want from a data set.
+   The function should take in two inputs: a data set and an index value.
+   Inside the body of the mean() function, use the extract() function to extract the values of a column into a separate list, and then compute the mean of the values in that        list using find_sum() and find_length().
+   The function should return the mean of the column.
+   Use the mean() function to compute the mean of the price column (index number 4). Assign the result to a variable named avg_price.
